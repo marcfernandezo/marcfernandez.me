@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import Image from "next/image"
-import { Github, ArrowUpRight, ExternalLink } from "lucide-react"
+import { ArrowUpRight, ExternalLink } from "lucide-react"
 import { FEATURED_PROJECTS } from "@/lib/data"
 import { Card } from "@/components/ui/card"
 
@@ -63,7 +63,6 @@ export default function FeaturedProjects() {
                   className="mt-1 text-zinc-600 transition-colors hover:text-zinc-400"
                   aria-label="View source code on GitHub (opens in new tab)"
                 >
-                  <Github size={18} />
                 </a>
               </div>
               <p className="mt-4 line-clamp-2 text-sm text-zinc-600 dark:text-zinc-400 hover:cursor-default">

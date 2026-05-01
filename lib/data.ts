@@ -39,12 +39,21 @@ export const FEATURED_PROJECTS: Project[] = [
 ]
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
+    {
+    company: "Bdr Informática y Comunicaciones, SL",
+    position: "IT Technician",
+    description:
+      "I provided IT consulting, custom software development, technical support, network solutions, and cybersecurity services. My role involved maintaining and securing IT infrastructure and equipment to ensure optimal performance and security.",
+    date: "2026",
+    link: "https://bdrinformatica.com/",
+    id: "2",
+  },
   {
     company: "Bdr Informática y Comunicaciones, SL",
     position: "IT Technician",
     description:
       "I provided IT consulting, custom software development, technical support, network solutions, and cybersecurity services. My role involved maintaining and securing IT infrastructure and equipment to ensure optimal performance and security.",
-    date: "Jan. 2024 — Feb. 2025",
+    date: "2024",
     link: "https://bdrinformatica.com/",
     id: "1",
   },
