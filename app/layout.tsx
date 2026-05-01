@@ -14,7 +14,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: "Marc Fernandez Otero - Software Engineer",
+  title: "Marc Fernandez - Software Engineer",
   description:
     "Marc Fernandez is a Barcelona-based Software Engineer specializing in backend development and software architecture. Building clean, scalable systems that matter.",
 
