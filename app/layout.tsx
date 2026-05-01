@@ -14,7 +14,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: "Marc Fernandez - Personal Site",
+  title: "Marc Fernandez - Software Engineer",
   description:
     "I'm Marc, an IT Technician and web developer located in Barcelona, Spain. I'm passionate about building innovative solutions that make a positive impact.",
 
