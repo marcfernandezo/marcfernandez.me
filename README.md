@@ -1,11 +1,11 @@
 <div align="center">
-<a href="https://marcfernandez.dev">
+<a href="https://marcfernandez.me">
 <img src="public/static/web_background.png">
 </a>
 </div>
 
 <div align="center">
-    <a href="https://marcfernandez.dev" target="_blank">
+    <a href="https://marcfernandez.me" target="_blank">
         Personal Site
     </a>
     <span>&nbsp;❖&nbsp;</span>
@@ -13,7 +13,7 @@
         LinkedIn
     </a>
     <span>&nbsp;❖&nbsp;</span>
-    <a href="https://x.com/marcfernandezo1">
+    <a href="https://x.com/marcfernandezo">
         X (formerly Twitter)
     </a>
 </div>
@@ -22,7 +22,7 @@
 
 Any contributions you make are **greatly appreciated**.
 
-1. [Fork](https://github.com/marcfernandezo/marcfernandez.dev/fork) this repository.
+1. [Fork](https://github.com/marcfernandezo/marcfernandez.me/fork) this repository.
 2. Install dependencies:
 
 ```bash
