@@ -26,48 +26,84 @@ export default function FeaturedProjects() {
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
         {FEATURED_PROJECTS.map((project) => (
           <div key={project.title} className="group relative">
-            <Card className="absolute inset-0" size={300} />
-            <div className="relative h-full w-full overflow-hidden rounded-xl dark:bg-zinc-900/90 p-5 border dark:border-zinc-800/60 transition-all duration-300 hover:border-zinc-700">
-              <div className="flex items-start justify-between">
-                <div className="flex items-center gap-2.5">
-                  {project.icon && (
-                    <div className="relative h-8 w-8 overflow-hidden rounded-md">
-                      <Image
-                        src={project.icon || "/placeholder.svg"}
-                        alt=""
-                        width={32}
-                        height={32}
-                        className="object-cover"
-                        aria-hidden="true"
-                      />
-                    </div>
-                  )}
-                  <a
-                    href={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-1.5 font-medium text-zinc-900 dark:text-zinc-100 transition-colors dark:hover:text-white"
-                    aria-label={`${project.title} (opens in new tab)`}
-                  >
-                    {project.title}
-                    <ExternalLink
-                      size={14}
-                      className="text-zinc-800 dark:text-zinc-500 transition-colors dark:group-hover:text-zinc-300"
-                    />
-                  </a>
+            <Card className="absolute inset-0" size={350} />
+            <div className="elative h-full w-full overflow-hidden rounded-xl border border-zinc-200 dark:border-zinc-800/60 bg-white dark:bg-zinc-900/90 transition-all duration-300 hover:border-zinc-400 dark:hover:border-zinc-700 hover:shadow-md">
+
+              {/* Cover image */}
+              {project.coverImage ? (
+                <div className="relative w-max h-52 overflow-hidden bg-zinc-100 dark:bg-zinc-800">
+                  <Image
+                    src={project.coverImage}  
+                    alt={`${project.title} preview`}
+                    width={450}
+                    height={450}
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-linear-to-t from-black/30 to-transparent" />
                 </div>
-                <a
-                  href={project.repository}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-1 text-zinc-600 transition-colors hover:text-zinc-400"
-                  aria-label="View source code on GitHub (opens in new tab)"
-                >
-                </a>
+              ) : (
+                <div className="h-40 w-full bg-linear-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900" />
+              )}
+
+              {/* Content */}
+              <div className="p-5">
+
+                {/* Header */}
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2.5">
+                    {project.icon && (
+                      <div className="relative h-8 w-8 overflow-hidden rounded-md ring-1 ring-zinc-200 dark:ring-zinc-700">
+                        <Image
+                          src={project.icon}
+                          alt={`${project.title} icon · Marc Fernandez`}
+                          fill
+                          className="object-cover"
+                          aria-hidden="true"
+                        />
+                      </div>
+                    )}
+                    
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-1.5 font-semibold text-zinc-900 dark:text-zinc-100 transition-colors hover:text-zinc-600 dark:hover:text-white"
+                      aria-label={`${project.title} (opens in new tab)`}
+                    >
+                      {project.title}
+                      <ExternalLink
+                        size={13}
+                        className="text-zinc-400 dark:text-zinc-500 transition-colors group-hover:text-zinc-600 dark:group-hover:text-zinc-300"
+                      />
+                    </a>
+                  </div>
+
+                  {project.type === "client" && (
+                    <span className="text-xs px-2 py-0.5 rounded-full border border-zinc-200 dark:border-zinc-700 text-zinc-500 dark:text-zinc-400 font-medium">
+                      Freelance
+                    </span>
+                  )}
+                </div>
+
+                {/* Description */}
+                <p className="mt-3 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400 line-clamp-2">
+                  {project.description}
+                </p>
+
+                {/* Tags */}
+                {project.tags && (
+                  <div className="mt-4 flex flex-wrap gap-1.5">
+                    {project.tags.map((tag) => (
+                      <span
+                        key={tag}
+                        className="text-xs px-2 py-0.5 rounded-md bg-zinc-100 dark:bg-zinc-800 text-zinc-500 dark:text-zinc-400 font-medium"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                )}
               </div>
-              <p className="mt-4 line-clamp-2 text-sm text-zinc-600 dark:text-zinc-400 hover:cursor-default">
-                {project.description}
-              </p>
             </div>
           </div>
         ))}

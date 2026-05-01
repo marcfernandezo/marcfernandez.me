@@ -1,12 +1,13 @@
-type Project = {
+export type Project = {
   icon: string
+  coverImage?: string   // ← nuevo
   title: string
   description: string
   link: string
-  repository: string
-  technologies?: string[]
+  repository?: string
+  tags?: string[]
+  type?: "client" | "personal" | "open-source"
 }
-
 type WorkExperience = {
   company: string
   position: string
@@ -21,20 +22,25 @@ type SocialLinks = {
   href: string
 }
 
+
 export const FEATURED_PROJECTS: Project[] = [
   {
-    icon: "/assets/collection-1.webp",
-    title: "@react-elements",
-    description: "✨ A collection of React UI components and icons.",
-    link: "https://github.com/marcfernandezo/react-elements",
-    repository: "https://github.com/marcfernandezo/react-elements",
+    icon: "/assets/ledgate.webp",
+    coverImage: "/assets/ledgate_background.svg",
+    title: "Ledgate",
+    description: "Ledgate is a software agency for customized web solutions for businesses.",
+    link: "https://ledgate.dev",
+    tags: ["Software Engineering", "Web Agency"],
+    type: "personal",
   },
   {
-    icon: "/assets/collection-2.webp",
-    title: "Nestcord",
-    description: "🚀 A social media built with Next.js, made for a school project",
-    link: "https://nestcord.vercel.app/",
-    repository: "https://github.com/nestcord",
+    icon: "/assets/stellarengine.webp",
+    coverImage: "/assets/stellarengine_background.png",
+    title: "Stellar Engine",
+    description: "Browser-based space simulation engine with real-time gravitational physics and orbital mechanics.",
+    link: "https://stellarengine.vercel.app/",
+    tags: ["Universe Sandbox", "Physics"],
+    type: "personal",
   },
 ]
 
