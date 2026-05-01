@@ -72,10 +72,6 @@ export const SOCIAL_LINKS: SocialLinks[] = [
     label: "LinkedIn",
     href: "https://www.linkedin.com/in/marcfernandezo/",
   },
-  {
-    label: "Instagram",
-    href: "https://www.instagram.com/marco.8k/",
-  },
 ]
 
 export const EMAIL = "marc.fernandezo@hotmail.com"
