@@ -1,6 +1,6 @@
 <div align="center">
 <a href="https://marcfernandez.me">
-<img src="public/static/web_background.png">
+<img src="public/static/background.png">
 </a>
 </div>
 
