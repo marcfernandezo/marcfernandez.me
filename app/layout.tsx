@@ -14,17 +14,53 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: "Marc Fernandez - Software Engineer",
+  title: "Marc Fernandez Otero - Software Engineer",
   description:
-    "I'm Marc, an IT Technician and web developer located in Barcelona, Spain. I'm passionate about building innovative solutions that make a positive impact.",
+    "Marc Fernandez is a Barcelona-based Software Engineer specializing in backend development and software architecture. Building clean, scalable systems that matter.",
+
+  keywords: [
+    "Marc Fernandez",
+    "Marc Fernandez Otero",
+    "Marc Fernandez Barcelona",
+    "Software Engineer Barcelona",
+    "Backend Developer Barcelona",
+    "Marc Fernandez Software Engineer",
+    "Marc Fernandez Backend Developer",
+    "Marc Fernandez Software Architecture",
+    "marcfernandez.dev",
+    "marcfernandez.me",
+  ],
+
+  authors: [{ name: "Marc Fernandez", url: "https://marcfernandez.me" }],
+  creator: "Marc Fernandez",
+
+  metadataBase: new URL("https://marcfernandez.me"),
+
+  alternates: {
+    canonical: "https://marcfernandez.me",
+  },
 
   openGraph: {
-    title: "Marc Fernandez - Personal Site",
+    title: "Marc Fernandez — Software Engineer",
     description:
-      "I'm Marc, an IT Technician and web developer located in Barcelona, Spain. I'm passionate about building innovative solutions that make a positive impact.",
-    url: "https://marcfernandez.dev",
-    siteName: "Marc Fernandez - Personal Site",
+      "Marc Fernandez is a Barcelona-based Software Engineer specializing in backend development and software architecture. Building clean, scalable systems that matter.",
+    url: "https://marcfernandez.me",
+    siteName: "Marc Fernandez",
+    locale: "en_US",
+    type: "profile",
+    firstName: "Marc",
+    lastName: "Fernandez Otero",
+    username: "marcfernandezo",
   },
+
+  twitter: {
+    card: "summary",
+    title: "Marc Fernandez — Software Engineer",
+    description:
+      "Barcelona-based Software Engineer specializing in backend development and software architecture.",
+    creator: "@marcfernandezo",
+  },
+
   robots: {
     index: true,
     follow: true,
@@ -32,6 +68,8 @@ export const metadata: Metadata = {
       index: true,
       follow: true,
       noimageindex: false,
+      "max-snippet": -1,
+      "max-image-preview": "large",
     },
   },
 }
