@@ -1,6 +1,6 @@
 export type Project = {
   icon: string
-  coverImage?: string   // ← nuevo
+  coverImage?: string
   title: string
   description: string
   link: string
