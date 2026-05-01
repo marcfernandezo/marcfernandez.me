@@ -34,8 +34,9 @@ export default function Home() {
     >
       <motion.section variants={VARIANTS_SECTION} transition={TRANSITION_SECTION}>
         <p className="text-zinc-600 dark:text-zinc-400">
-          I&apos;m Marc, an IT Technician and web developer located in Barcelona, Spain. I&apos;m
-          passionate about building innovative solutions that make a positive impact.
+            Marc is a Barcelona-based Backend & Software Engineer who crafts systems 
+            where clean architecture meets purposeful engineering. He builds things 
+            that don't just work, he builds things that matter.
         </p>
         <Social />
       </motion.section>

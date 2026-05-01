@@ -71,7 +71,7 @@ export default function Header() {
   return (
     <header className="mb-8 flex items-center justify-between">
       <div>
-        <Link href="/" className="font-medium text-black dark:text-white">
+        <Link href="/" className="font-mono text-black dark:text-white">
           Marc Fernandez
         </Link>
 
@@ -79,10 +79,10 @@ export default function Header() {
           as="p"
           preset="fade"
           per="char"
-          className="text-zinc-600 dark:text-zinc-500"
+          className="text-zinc-600 dark:text-zinc-500 font-mono"
           delay={0.5}
         >
-          IT Technician & web dev.
+          Software Engineer
         </TextEffect>
       </div>
       <div className="flex items-center gap-2">
