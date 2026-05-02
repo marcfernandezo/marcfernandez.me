@@ -10,7 +10,7 @@ export default function FeaturedProjects() {
   return (
     <section aria-labelledby="featured-projects-heading">
       <div className="mb-5 flex items-center justify-between">
-        <h3 className="text-lg font-medium">Case Studies</h3>
+        <h3 className="text-lg font-mono font-semibold">Case Studies</h3>
         <Link
           href="/projects"
           className="group flex items-center gap-1.5 text-sm text-zinc-500 transition-colors hover:text-neutral-400"
@@ -57,7 +57,6 @@ export default function FeaturedProjects() {
                           src={project.icon}
                           alt={`${project.title} icon · Marc Fernandez`}
                           fill
-                          className="object-cover"
                           aria-hidden="true"
                         />
                       </div>

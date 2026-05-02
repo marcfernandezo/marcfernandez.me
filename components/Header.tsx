@@ -71,7 +71,7 @@ export default function Header() {
   return (
     <header className="mb-8 flex items-center justify-between">
       <div>
-        <Link href="/" className="font-mono text-black dark:text-white">
+        <Link href="/" className="font-mono font-semibold text-black dark:text-white">
           Marc Fernandez
         </Link>
 

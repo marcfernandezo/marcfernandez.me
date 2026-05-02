@@ -4,13 +4,13 @@ import { ExternalLink } from "lucide-react"
 export default function WorkExperience() {
   return (
     <>
-      <h3 className="mb-5 text-lg font-medium">Work Experience</h3>
+      <h3 className="mb-5 text-lg font-mono font-semibold">Work Experience</h3>
       <ol className="relative border-s border-gray-300 dark:border-gray-400">
         <li className="ms-4">
           <div className="flex flex-col space-y-2">
             {WORK_EXPERIENCE.map((job) => (
               <section key={job.id} className="space-y-2">
-                <div className="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-gray-500 dark:border-gray-900 dark:bg-gray-700"></div>
+                <div className="absolute -inset-s-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-gray-500 dark:border-gray-900 dark:bg-gray-700"></div>
 
                 <time className="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-gray-400">
                   {job.date}
