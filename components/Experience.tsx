@@ -16,7 +16,7 @@ export default function WorkExperience() {
                   {job.date}
                 </time>
 
-                <h3 className="text-lg text-gray-900 dark:text-white">{job.position}</h3>
+                <h3 className="text-lg text-gray-900 dark:text-white font-medium">{job.position}</h3>
                 <a
                   className="font-base group relative inline-block font-[450] text-zinc-900 dark:text-zinc-50"
                   target="_blank"
