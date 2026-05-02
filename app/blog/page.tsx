@@ -1,3 +1,10 @@
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Blog - Marc Fernandez - Software Engineer',
+  description: 'A showcase of Marc Fernandez\'s thoughts and experiences on web development, programming, and technology. Explore clean, scalable systems that matter.',
+}
+
 export default function BlogPage() {
   return (
     <>
