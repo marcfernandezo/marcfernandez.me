@@ -8,6 +8,7 @@ export type Project = {
   tags?: string[]
   type?: "client" | "personal" | "open-source"
 }
+
 type WorkExperience = {
   company: string
   position: string
@@ -78,6 +79,10 @@ export const SOCIAL_LINKS: SocialLinks[] = [
     label: "LinkedIn",
     href: "https://www.linkedin.com/in/marcfernandezo/",
   },
+  {
+    label: "Google Developer",
+    href: "https://g.dev/marcfernandezo",
+  }
 ]
 
 export const EMAIL = "marc.fernandezo@hotmail.com"
