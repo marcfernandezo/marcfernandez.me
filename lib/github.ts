@@ -37,7 +37,7 @@ export async function fetchRepositories(): Promise<GitHubRepository[]> {
 
   try {
     res = await fetch(
-      `${GITHUB_API}/users/${GITHUB_USERNAME}/repos?per_page=100&sort=updated`,
+      `${GITHUB_API}/users/${GITHUB_USERNAME}/repos`,
       {
         headers: getGitHubHeaders(),
         next: { revalidate: 3600 },
