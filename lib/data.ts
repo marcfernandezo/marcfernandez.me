@@ -46,17 +46,17 @@ export const FEATURED_PROJECTS: Project[] = [
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
     {
-    company: "Bdr Informática y Comunicaciones, SL",
-    position: "IT Technician",
+    company: "Emas Consulting / Accenture",
+    position: "IT Consultant",
     description:
-      "I provided IT consulting, custom software development, technical support, network solutions, and cybersecurity services. My role involved maintaining and securing IT infrastructure and equipment to ensure optimal performance and security.",
+      "I worked as an IT Consultant on Adevinta headquarters in Barcelona in collaboration with Accenture providing a custom software solution.",
     date: "2026",
-    link: "https://bdrinformatica.com/",
+    link: "https://emas.es/",
     id: "2",
   },
   {
-    company: "Bdr Informática y Comunicaciones, SL",
-    position: "IT Technician",
+    company: "BDR Group",
+    position: "Systems Technician",
     description:
       "I provided IT consulting, custom software development, technical support, network solutions, and cybersecurity services. My role involved maintaining and securing IT infrastructure and equipment to ensure optimal performance and security.",
     date: "2024",
