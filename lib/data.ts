@@ -26,15 +26,6 @@ type SocialLinks = {
 
 export const FEATURED_PROJECTS: Project[] = [
   {
-    icon: "/assets/ledgate.webp",
-    coverImage: "/assets/ledgate_background.svg",
-    title: "Ledgate",
-    description: "Ledgate is a software agency for customized web solutions for businesses.",
-    link: "https://ledgate.dev",
-    tags: ["Software Engineering", "Web Agency"],
-    type: "personal",
-  },
-  {
     icon: "/assets/stellarengine.webp",
     coverImage: "/assets/stellarengine_background.png",
     title: "Stellar Engine",
