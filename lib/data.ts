@@ -25,6 +25,15 @@ type SocialLinks = {
 
 
 export const FEATURED_PROJECTS: Project[] = [
+    {
+    icon: "/assets/nestcord-logo.webp",
+    coverImage: "/assets/nestcord.webp",
+    title: "X Clone",
+    description: "A web application clone of Twitter (X) made with Next.js App Router Typescript, TailwindCSS and PostgreSQL",
+    link: "https://nestcord.vercel.app/",
+    tags: [ "Next.js", "PostgreSQL", "Tailwindcss" ],
+    type: "personal",
+  },
   {
     icon: "/assets/stellarengine.webp",
     coverImage: "/assets/stellarengine_background.png",
