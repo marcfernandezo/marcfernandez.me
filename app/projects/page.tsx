@@ -5,8 +5,8 @@ import { fetchRepositories } from '@/lib/github'
 import { GitHubRepository } from '@/lib/github'
 
 export const metadata: Metadata = {
-  title: 'Projects - Marc Fernandez - Software Engineer',
-  description: 'A showcase of projects by Marc Fernandez, a Barcelona-based Software Engineer specializing in backend development and software architecture. Explore clean, scalable systems that matter.',
+  title: 'Projects - Marc Fernandez - Junior Software Developer',
+  description: 'A showcase of projects by Marc Fernandez, a Barcelona-based Junior Software Developer specializing in backend development and software architecture. Explore clean, scalable systems that matter.',
 }
 
 const LANGUAGE_COLORS: Record<string, string> = {

@@ -14,9 +14,9 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: "Marc Fernandez - Software Engineer",
+  title: "Marc Fernandez - Junior Software Developer",
   description:
-    "Marc Fernandez is a Barcelona-based Software Engineer specializing in backend development and software architecture. Building clean, scalable systems that matter.",
+    "Marc Fernandez is a Barcelona-based Junior Software Developer specializing in backend development and software architecture. Building clean, scalable systems that matter.",
 
   keywords: [
     "Marc Fernandez",
@@ -41,9 +41,9 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Marc Fernandez — Software Engineer",
+    title: "Marc Fernandez — Junior Software Developer",
     description:
-      "Marc Fernandez is a Barcelona-based Software Engineer specializing in backend development and software architecture. Building clean, scalable systems that matter.",
+      "Marc Fernandez is a Barcelona-based Junior Software Developer specializing in backend development and software architecture. Building clean, scalable systems that matter.",
     url: "https://marcfernandez.me",
     siteName: "Marc Fernandez",
     locale: "en_US",
@@ -55,9 +55,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary",
-    title: "Marc Fernandez — Software Engineer",
+    title: "Marc Fernandez — Junior Software Developer",
     description:
-      "Barcelona-based Software Engineer specializing in backend development and software architecture.",
+      "Barcelona-based Junior Software Developer specializing in backend development and software architecture.",
     creator: "@marcfernandezo",
   },
 
